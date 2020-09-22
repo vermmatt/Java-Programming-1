@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Triangle{
 
      public static void main(String []args){
-        Scanner keyboard = new Scanner(System.in); //System.in is a standard input stream  
+        Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter the height: ");  
-        int num = keyboard.nextInt();              //reads string 
+        int num = keyboard.nextInt();
         int row = 1;
         int column = 1;
         
