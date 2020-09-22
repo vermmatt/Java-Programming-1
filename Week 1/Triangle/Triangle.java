@@ -4,20 +4,20 @@ public class Triangle{
 
      public static void main(String []args){
         Scanner keyboard = new Scanner(System.in); //System.in is a standard input stream  
-        System.out.print("Geef de hoogte in: ");  
+        System.out.print("Enter the height: ");  
         int num = keyboard.nextInt();              //reads string 
-        int rij = 1;
-        int kolom = 1;
+        int row = 1;
+        int column = 1;
         
-        while (rij <= num) {
-            while (kolom < rij) {
+        while (row <= num) {
+            while (column < row) {
                 System.out.print("42 ");
-                kolom++;
+                column++;
                 
             }
             System.out.println("42 ");
-            kolom = 1;
-            rij++;
+            column = 1;
+            row++;
         }
      }
 }
