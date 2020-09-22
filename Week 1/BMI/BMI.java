@@ -11,21 +11,21 @@ public class Main{
         System.out.print("Enter your weight (in kg): ");
         int weight = keyboard.nextInt();
         double bmi = weight / (length  * length);
-        System.out.print("Beste " + name + ", je BMI bedraagt " + String.format("%.1f",bmi));
+        System.out.print("Dear " + name + ", your BMI is " + String.format("%.1f",bmi));
         if (bmi < 18.5) {
-            System.out.print(". Dat is een ondergewicht.");
+            System.out.print(". You are underweight.");
             return;
         } else if (bmi < 24.9) {
-            System.out.print(". Dat is een normaal gewicht.");
+            System.out.print(". This is a normal weight.");
             return;
         } else if (bmi < 29.9) {
-            System.out.print(". Dat is een overgewicht.");
+            System.out.print(". You are overweight.");
             return;
         } else if (bmi < 39.9) {
-            System.out.print(". Dat is zwaarlijvig.");
+            System.out.print(". You are obese.");
             return;
         } else {
-            System.out.print(". Dat is obesitas.");
+            System.out.print(". You have obesity.");
             return;
         }
      }
