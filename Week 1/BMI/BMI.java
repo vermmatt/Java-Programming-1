@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main{
 
      public static void main(String []args){
-        Scanner keyboard = new Scanner(System.in); //System.in is a standard input stream  
+        Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter your name: ");  
-        String name = keyboard.nextLine();              //reads string 
+        String name = keyboard.nextLine();
         System.out.print("Enter your length (in meter): ");
         double length = keyboard.nextFloat();
         System.out.print("Enter your weight (in kg): ");
