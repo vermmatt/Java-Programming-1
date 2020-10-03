@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Digits2 {
     public static void main(String[] args) {
-        int MIN = 1000;
-        int MAX = 10000;
         int sum = 0;
         int number;
         Scanner keyboard = new Scanner(System.in);
