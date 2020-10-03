@@ -13,6 +13,6 @@ public class ASCIISum {
             num = character;
             sum += num;
         }
-        System.out.println(sum);
+        System.out.println("som = " + sum);
     }
 }
